@@ -1,0 +1,186 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    
+    .Section1>div ,.chef ,.Column,.info ,.input ,form input , textarea, .footer .Container div
+    {
+        width: 100%;
+    }
+    .Section1 ,  .Chefs,.photo-gallery,.Contact ,.footer .Container,    .nav1
+
+    {
+        flex-wrap: wrap;
+    }
+   
+    iframe
+    {
+        height: auto;
+    }
+    .nav1
+    {
+        align-self: flex-end;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .Section1>div ,.info ,.input ,form input , textarea
+    {
+        width: 100%;
+    }
+    .Section1 ,  .Chefs,.photo-gallery,.Contact ,.footer .Container,    .nav1
+
+    {
+        flex-wrap: wrap;
+    }
+   
+    iframe
+    {
+        height: auto;
+    }
+    .nav1
+    {
+        align-self: flex-end;
+    }
+   .Column ,.footer .Container div
+    {
+        width: 40%;
+    }
+    .chef 
+    {
+        width: 45%;
+    }
+    .div3
+    {
+        order: -2;
+    }
+    .div1
+    {
+        order: -3;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .Section1 ,  .Chefs,.photo-gallery,.footer .Container,    .nav1
+
+    {
+        flex-wrap: nowrap;
+    }
+    .Section1>div
+    {
+        width: 100%;
+    }
+    .info
+    {
+        width: 48%;
+    }
+      form input , textarea
+    {
+        width: 98%;
+    }
+    .input 
+    {
+        width: 46%;
+    }
+    
+    .footer .Container
+
+    {
+        flex-wrap: wrap;
+    }
+   
+    iframe
+    {
+        height: auto;
+    }
+    .nav1
+    {
+        align-self: flex-end;
+    }
+   .footer .Container div
+    {
+        width: 45%;
+    }
+    .chef 
+    {
+        width: 30%;
+    }
+    .div3
+    {
+        order: -2;
+    }
+    .div1
+    {
+        order: -3;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .Section1 ,  .Chefs,.photo-gallery,.footer .Container,    .nav1
+
+    {
+        flex-wrap: nowrap;
+    }
+    .Section1>div
+    {
+        width: 100%;
+    }
+    .info
+    {
+        width: 48%;
+    }
+      form input , textarea
+    {
+        width: 98%;
+    }
+    .input 
+    {
+        width: 46%;
+    }
+    
+    .footer .Container
+
+    {
+        flex-wrap: wrap;
+    }
+   
+    iframe
+    {
+        height: auto;
+    }
+    .nav1
+    {
+        align-self: flex-end;
+    }
+   .footer .Container div
+    {
+        width: 25%;
+    }
+    .chef 
+    {
+        width: 30%;
+    }
+    .div3
+    {
+        order: 3;
+    }
+   
+   .div2
+{
+    flex-grow: 2;
+}
+    .div1
+    {
+        order: -3;
+    }
+
+}
+
